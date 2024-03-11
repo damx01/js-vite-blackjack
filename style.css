@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+
+html,
+body {
+    margin: 0px;
+    background-color: #2f4f30;
+    color: white;
+}
+
+.carta {
+    margin-top: 15px;
+    width: 150px;
+    position: relative;
+    left: 100px;
+    margin-left: -90px;
+}
+
+.div_cartas {
+
+    height: 210px;
+
+}
