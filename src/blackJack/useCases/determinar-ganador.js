@@ -5,13 +5,13 @@ export const determinarGanador = (puntosJugadores) => {
     setTimeout(() => {
   
       if (puntosComputadora === puntosJugador) {
-        console.log("Nadie Gana")
+        alert("Nadie Gana")
       } else if (puntosComputadora > 21) {
-        console.log("Ganaste")
+        alert("Ganaste")
       } else if (puntosJugador > puntosComputadora) {
-        console.log("ganaste");
+        alert("ganaste");
       } else {
-        console.log("perdiste")
+        alert("perdiste")
       }
     }, 10)
   
